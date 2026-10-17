@@ -1,0 +1,5 @@
+Method,Circuits,Total shots,Targets
+Raw (3 bases),3,12000,-
+Parity postselection (Z only),1,4000,Bit-flip-like errors seen in ZZ; blind to phase errors
+Readout mitigation,7,20000,Measurement assignment error only
+"Readout + ZNE (folds (1, 3, 5))",13,44000,Part of CX gate noise; higher variance
